@@ -4,21 +4,166 @@ import "@/styles/globals.css";
 ---
 
 <Layout title="Frontend Mentor | Single-page design portfolio">
+  <!-- THE HEADER -->
   <header
     class="mx-4 mt-4 flex items-center justify-between md:ml-[2.44rem] md:mr-10 md:max-xl:mt-[2.13rem] xl:ml-[10.31rem] xl:mr-[10.25rem]"
   >
+    <!-- LOGO -->
     <img
       src="/public/images/logo.svg"
       alt=""
       class="size-12 md:max-xl:size-16"
     />
+    <!-- BUTTON Free Consultation -->
     <button
       type="button"
       class="h-11 w-44 rounded-[1.75rem] bg-[#030303] text-sm font-bold leading-7 text-[#FFF7F0] md:max-xl:h-14 md:max-xl:w-[14.25rem]"
       >Free Consultation</button
     >
   </header>
-  <main></main>
+  <!-- THE MAIN BODY -->
+  <main>
+    <!-- DESIGN SOLUTIONS -->
+    <section
+      class="mx-4 mt-[2.63rem] flex flex-col gap-8 md:mx-[2.44rem] md:mt-[4.25rem] md:gap-16 xl:mx-[10.31rem] xl:mt-[4.38rem] xl:gap-20"
+    >
+      <div
+        class="flex flex-col items-center gap-4 text-center md:gap-[1.69rem] xl:gap-[1.44rem]"
+      >
+        <h1
+          class="w-[21.4375rem] text-4xl font-bold leading-normal text-[#030303] md:w-[43.125rem] md:text-[2.75rem] xl:w-[46.9375rem] xl:text-[3.5rem]"
+        >
+          Design solutions made easy
+        </h1>
+        <p
+          class="w-[17.8125rem] text-base font-medium leading-relaxed text-[#7A746E] md:w-[35.8125rem] md:max-xl:text-lg md:max-xl:leading-[1.75rem] xl:w-[45.625rem]"
+        >
+          With over ten years of experience in various design disciplines,
+          I&#39;m your one-stop shop for your design needs.
+        </p>
+      </div>
+      <!-- DESIGN SKILLS -->
+      <div
+        class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-rows-1 xl:gap-[1.51rem]"
+      >
+        <!-- GRAPHIC DESIGN -->
+        <div
+          class="flex h-[22.75rem] w-[21.4375rem] flex-col gap-[5.88rem] rounded-lg bg-[#755CDE] p-6 md:w-[20.8125rem] xl:w-[22.125rem]"
+        >
+          <!-- Image -->
+          <div class="self-end">
+            <img
+              src="/public/images/pattern-graphic-design.svg"
+              alt="pattern-graphic-design"
+              class=""
+            />
+          </div>
+          <!-- Text  -->
+          <div class="">
+            <h2 class="text-2xl font-bold leading-normal text-[#fff]">
+              Graphic Design
+            </h2>
+          </div>
+        </div>
+        <!-- UI/UX DESIGN , APPS & ILLUSTRATIONS -->
+        <div class="flex flex-col gap-6">
+          <!-- UI/UX & APPS -->
+          <div class="flex gap-[1.56rem]">
+            <!-- UI/UX -->
+            <div
+              class="flex h-[11.375rem] w-[9.9375rem] flex-col gap-10 rounded-lg bg-[#F6A560] p-6 md:w-[9.6875rem] xl:w-[10.25rem]"
+            >
+              <!-- IMAGE -->
+              <div class="self-end">
+                <img src="/public/images/pattern-ui-ux.svg" alt="" class="" />
+              </div>
+              <!-- TEXT -->
+              <div class="">
+                <h2 class="text-2xl font-bold leading-normal text-[#fff]">
+                  UI/UX
+                </h2>
+              </div>
+            </div>
+            <!-- APPS -->
+            <div
+              class="flex h-[11.375rem] w-[9.9375rem] flex-col gap-10 rounded-lg bg-[#F39E9E] p-6 md:w-[9.6875rem] xl:w-[10.25rem]"
+            >
+              <!-- IMAGE -->
+              <div class="self-end">
+                <img src="/public/images/pattern-apps.svg" alt="" class="" />
+              </div>
+              <!-- TEXT -->
+              <div class="">
+                <h2 class="text-2xl font-bold leading-normal text-[#fff]">
+                  Apps
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- ILLUSTRATIONS -->
+          <div
+            class="flex h-[9.875rem] w-[21.4375rem] flex-col gap-4 rounded-lg bg-[#EB7565] p-6 md:w-[20.8125rem] xl:w-[22.125rem]"
+          >
+            <!-- IMAGE -->
+            <div class="self-end">
+              <img
+                src="/public/images/pattern-illustrations.svg"
+                alt="pattern-illustrations"
+                class=""
+              />
+            </div>
+            <!-- TEXT -->
+            <div class="">
+              <h2 class="text-2xl font-bold leading-normal text-[#fff]">
+                Illustrations
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- PHOTOGRAPHY & MOTION GRAPHIC  -->
+        <div class="flex flex-col gap-6 md:flex-row xl:flex-col">
+          <!-- PHOTOGRAPHY -->
+          <div
+            class="flex h-[11.375rem] w-[21.4375rem] flex-col gap-10 rounded-lg bg-[#61C4B7] p-6 md:w-[20.8125rem] xl:w-[22.125rem]"
+          >
+            <!-- IMAGE -->
+            <div class="self-end">
+              <img
+                src="/public/images/pattern-photography.svg"
+                alt=""
+                class=""
+              />
+            </div>
+            <!-- TEXT -->
+            <div class="">
+              <h2 class="text-2xl font-bold leading-normal text-[#fff]">
+                Illustrations
+              </h2>
+            </div>
+          </div>
+          <!-- MOTION GRAPHIC  -->
+          <div
+            class="flex h-[11.375rem] w-[21.4375rem] flex-col gap-10 rounded-lg bg-[#552049] p-6"
+          >
+            <!-- IMAGE -->
+            <div class="self-end">
+              <img
+                src="/public/images/pattern-motion-graphics.svg"
+                alt=""
+                class=""
+              />
+            </div>
+            <!-- TEXT -->
+            <div class="">
+              <h2 class="text-2xl font-bold leading-normal text-[#fff]">
+                Motion Graphics
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </Layout>
 
 <style></style>
