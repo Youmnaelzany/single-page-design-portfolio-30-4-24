@@ -44,7 +44,7 @@ import "@/styles/globals.css";
       </div>
       <!-- DESIGN SKILLS -->
       <div
-        class="flex flex-col gap-6 md:flex-row md:flex-wrap xl:flex xl:flex-row xl:gap-[1.51rem]"
+        class="flex flex-col gap-6 md:flex-row md:flex-wrap xl:flex xl:flex-row xl:flex-nowrap xl:gap-[1.51rem]"
       >
         <!-- GRAPHIC DESIGN -->
         <div
@@ -122,7 +122,7 @@ import "@/styles/globals.css";
         </div>
         <!-- PHOTOGRAPHY & MOTION GRAPHIC  -->
         <!-- PHOTOGRAPHY -->
-        <div class="flex flex-col gap-6 md:flex-row">
+        <div class="flex flex-col gap-6 md:flex-row xl:flex-col">
           <div
             class="flex h-[11.375rem] w-[21.4375rem] flex-col gap-10 rounded-lg bg-[#61C4B7] p-6 md:w-[20.8125rem] xl:w-[22.125rem]"
           >
@@ -163,7 +163,151 @@ import "@/styles/globals.css";
         </div>
       </div>
     </section>
+    <!-- DESIGNER INTRODUCTION -->
+    <section
+      class="relative mx-4 mt-[6.25rem] flex flex-col items-center gap-10 md:mx-10 md:mt-[7.5rem] md:gap-16 md:max-xl:flex-row md:max-xl:justify-between xl:ml-[9.62rem] xl:mr-[10.31rem] xl:mt-[8.5rem] xl:gap-[7.81rem]"
+    >
+      <!-- DESIGNER IMAGE -->
+      <div class="md:absolute md:-left-[4.813rem]">
+        <img
+          src="/public/images/image-amy.webp"
+          alt=""
+          class="size-[18.75rem] md:size-[22.75rem] xl:size-[27.8125rem]"
+        />
+      </div>
+      <!-- DESIGNER DETAILES -->
+      <div
+        class="flex flex-col gap-6 text-center md:relative md:right-[-22.875rem] md:text-left xl:right-[-17.875rem] xl:top-[3.75rem] xl:gap-8"
+      >
+        <h2
+          class="w-[21.4375rem] text-[1.625rem] font-bold leading-normal text-[#030303] md:w-[21.1875rem] md:text-[2rem] xl:mb-[0.13rem] xl:w-[33.75rem] xl:text-[2.5rem]"
+        >
+          I &#39;m Amy, and I &#39;d love to work on your next project
+        </h2>
+        <p
+          class="mb-2 w-[21.4375rem] text-base font-medium leading-relaxed text-[#7A746E] md:w-[21.1875rem] md:max-xl:mb-0 md:max-xl:text-lg md:max-xl:leading-7 xl:w-[33.75rem]"
+        >
+          I love working with others to create beautiful design solutions.
+          I&#39;ve designed everything from brand illustrations to complete
+          mobile apps. I&#39;m also handy with a camera!
+        </p>
+        <div class="">
+          <button
+            type="button"
+            class="h-11 w-44 rounded-[1.75rem] bg-[#EB7565] text-sm font-bold leading-7 text-[#FFF7F0] transition-colors duration-500 ease-linear hover:bg-[#F6A560] md:h-14 md:w-[14.25rem] md:text-base"
+          >
+            Free Consultation
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- AMY'S WORK -->
+    <section
+      class="mt-[6.25rem] flex flex-col items-center gap-8 text-center md:mt-[7.5rem] md:gap-14 xl:mt-[15.5rem]"
+    >
+      <!-- TITLE -->
+      <div class="">
+        <h2
+          class="text-2xl font-bold leading-normal text-[#030303] md:text-[2rem]"
+        >
+          My Work
+        </h2>
+      </div>
+      <!-- SLIDER -->
+      <div class="flex flex-nowrap items-center justify-between gap-2">
+        <div class="">
+          <img src="/public/images/image-slide-1.jpg" alt="" class="" />
+        </div>
+        <div class="">
+          <img src="/public/images/image-slide-2.jpg" alt="" class="" />
+        </div>
+        <div class="">
+          <img src="/public/images/image-slide-3.jpg" alt="" class="" />
+        </div>
+        <div class="">
+          <img src="/public/images/image-slide-4.jpg" alt="" class="" />
+        </div>
+        <div class="">
+          <img src="/public/images/image-slide-5.jpg" alt="" class="" />
+        </div>
+      </div>
+      <!-- BUTTON -->
+      <div class="flex items-center justify-between gap-2">
+        <button
+          type="button"
+          class="flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-[#030303] transition-all duration-500 ease-linear hover:bg-[#755CDE]"
+          id="leftButton"
+        >
+          <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"
+            ><path
+              fill="#FFF"
+              d="M8 0 0 8l8 8 1.687-1.687-5.121-5.12h10.241V6.807H4.566l5.121-5.12z"
+            ></path></svg
+          >
+        </button>
+        <button
+          type="button"
+          class="flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-[#030303] transition-all duration-500 ease-linear hover:bg-[#755CDE]"
+          id="rightButton"
+        >
+          <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"
+            ><path
+              fill="#FFF"
+              d="m6.808 16 8-8-8-8-1.687 1.687 5.121 5.12H.001v2.386h10.241l-5.121 5.12z"
+            ></path></svg
+          >
+        </button>
+      </div>
+    </section>
+    <!-- BOOK A CALL -->
+    <section
+      class="mx-4 mt-[6.26rem] md:mx-[2.44rem] md:mt-[7.5rem] xl:mx-[10.31rem] xl:mt-[5.5rem]"
+    >
+      <div
+        class="flex flex-col items-center gap-6 rounded-[0.625rem] bg-[#030303] px-6 pb-12 pt-[3.06rem] text-center md:gap-[1.62rem] md:px-[4.69rem] md:pb-16 md:pt-14 xl:flex-row xl:justify-between xl:gap-[11.37rem] xl:pb-20 xl:pl-[4.06rem] xl:pr-[5.94rem] xl:pt-[5.06rem] xl:text-left"
+      >
+        <div class="flex flex-col gap-6 md:gap-[1.62rem] xl:gap-[1.56rem]">
+          <h2
+            class="text-[1.625rem] font-bold leading-normal text-[#FFF7F0] md:text-[2rem] xl:text-[2.5rem]"
+          >
+            Book a call with me
+          </h2>
+          <p
+            class="w-[18.4375rem] text-base font-medium leading-relaxed text-[#FFF7F0] md:w-[33.75rem] md:text-lg md:leading-7"
+          >
+            I&#39;d love to have a chat to see how I can help you. The best
+            first step is for us to discuss your project during a free
+            consultation. Then we can move forward from there.
+          </p>
+        </div>
+        <div class="">
+          <button
+            type="button"
+            class="h-11 w-44 rounded-[1.75rem] bg-[#EB7565] text-sm font-bold leading-7 text-[#FFF7F0] transition-colors duration-500 ease-linear hover:bg-[#F6A560] md:h-14 md:w-[14.25rem] md:text-base"
+          >
+            Free Consultation
+          </button>
+        </div>
+      </div>
+    </section>
   </main>
+  <!-- THE FOOTER -->
+  <footer
+    class="md::mt-14 mx-4 mb-8 mt-[2.62rem] flex items-center justify-between md:mb-14 md:ml-[2.44rem] md:mr-10 md:mt-12 xl:mb-20 xl:ml-[10.31rem] xl:mr-[10.25rem]"
+  >
+    <!-- LOGO -->
+    <img
+      src="/public/images/logo.svg"
+      alt=""
+      class="size-12 md:max-xl:size-16"
+    />
+    <!-- BUTTON Free Consultation -->
+    <button
+      type="button"
+      class="h-11 w-44 rounded-[1.75rem] bg-[#030303] text-sm font-bold leading-7 text-[#FFF7F0] transition-colors duration-500 ease-linear hover:bg-[#755CDE] md:max-xl:h-14 md:max-xl:w-[14.25rem]"
+      >Free Consultation</button
+    >
+  </footer>
 </Layout>
 
 <style></style>
