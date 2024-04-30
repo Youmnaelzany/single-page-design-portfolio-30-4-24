@@ -17,7 +17,7 @@ import "@/styles/globals.css";
     <!-- BUTTON Free Consultation -->
     <button
       type="button"
-      class="h-11 w-44 rounded-[1.75rem] bg-[#030303] text-sm font-bold leading-7 text-[#FFF7F0] md:max-xl:h-14 md:max-xl:w-[14.25rem]"
+      class="h-11 w-44 rounded-[1.75rem] bg-[#030303] text-sm font-bold leading-7 text-[#FFF7F0] transition-colors duration-500 ease-linear hover:bg-[#755CDE] md:max-xl:h-14 md:max-xl:w-[14.25rem]"
       >Free Consultation</button
     >
   </header>
@@ -44,7 +44,7 @@ import "@/styles/globals.css";
       </div>
       <!-- DESIGN SKILLS -->
       <div
-        class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-rows-1 xl:gap-[1.51rem]"
+        class="flex flex-col gap-6 md:flex-row md:flex-wrap xl:flex xl:flex-row xl:gap-[1.51rem]"
       >
         <!-- GRAPHIC DESIGN -->
         <div
@@ -121,8 +121,8 @@ import "@/styles/globals.css";
           </div>
         </div>
         <!-- PHOTOGRAPHY & MOTION GRAPHIC  -->
-        <div class="flex flex-col gap-6 md:flex-row xl:flex-col">
-          <!-- PHOTOGRAPHY -->
+        <!-- PHOTOGRAPHY -->
+        <div class="flex flex-col gap-6 md:flex-row">
           <div
             class="flex h-[11.375rem] w-[21.4375rem] flex-col gap-10 rounded-lg bg-[#61C4B7] p-6 md:w-[20.8125rem] xl:w-[22.125rem]"
           >
@@ -143,14 +143,14 @@ import "@/styles/globals.css";
           </div>
           <!-- MOTION GRAPHIC  -->
           <div
-            class="flex h-[11.375rem] w-[21.4375rem] flex-col gap-10 rounded-lg bg-[#552049] p-6"
+            class="flex h-[11.375rem] w-[21.4375rem] flex-col gap-10 rounded-lg bg-[#552049] p-6 md:w-[20.8125rem] xl:h-[9.875rem] xl:w-[22.125rem] xl:gap-4"
           >
             <!-- IMAGE -->
             <div class="self-end">
               <img
                 src="/public/images/pattern-motion-graphics.svg"
                 alt=""
-                class=""
+                class="w-[8rem]"
               />
             </div>
             <!-- TEXT -->
