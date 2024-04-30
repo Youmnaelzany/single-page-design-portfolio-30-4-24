@@ -214,25 +214,38 @@ import "@/styles/globals.css";
         </h2>
       </div>
       <!-- SLIDER -->
-      <div class="flex flex-nowrap items-center justify-between gap-2">
-        <div class="">
-          <img src="/public/images/image-slide-1.jpg" alt="" class="" />
-        </div>
-        <div class="">
-          <img src="/public/images/image-slide-2.jpg" alt="" class="" />
-        </div>
-        <div class="">
-          <img src="/public/images/image-slide-3.jpg" alt="" class="" />
-        </div>
-        <div class="">
-          <img src="/public/images/image-slide-4.jpg" alt="" class="" />
-        </div>
-        <div class="">
-          <img src="/public/images/image-slide-5.jpg" alt="" class="" />
-        </div>
+
+      <div
+        class="imgList md:scrollbar-w-20 md:scrollbar-track-blue-700 md:scrollbar-thumb-blue-500 grid grid-cols-1 gap-4 overflow-x-auto md:grid-cols-3 xl:grid-cols-5"
+      >
+        <img
+          src="/public/images/image-slide-1.jpg"
+          alt=""
+          class="imgItems object-cover"
+        />
+        <img
+          src="/public/images/image-slide-2.jpg"
+          alt=""
+          class="imgItems object-cover"
+        />
+        <img
+          src="/public/images/image-slide-3.jpg"
+          alt=""
+          class="imgItems object-cover"
+        />
+        <img
+          src="/public/images/image-slide-4.jpg"
+          alt=""
+          class="imgItems object-cover"
+        />
+        <img
+          src="/public/images/image-slide-5.jpg"
+          alt=""
+          class="imgItems object-cover"
+        />
       </div>
       <!-- BUTTON -->
-      <div class="flex items-center justify-between gap-2">
+      <div class="flex items-center justify-between gap-4">
         <button
           type="button"
           class="flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-[#030303] transition-all duration-500 ease-linear hover:bg-[#755CDE]"
